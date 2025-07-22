@@ -101,7 +101,7 @@ app.get("/calculations", (req, res) => {
 
     } else {
 
-        percentage = (totalMarks / marksObtained) * 100;
+        percentage = (marksObtained / totalMarks) * 100;
 
     }
 
