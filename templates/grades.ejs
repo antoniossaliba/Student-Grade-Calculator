@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your inserted grades so far</title>
+  </head>
+  <body>
+    <ul>
+        <% for (let i = 0; i < materials.length; i++) { %>
+            <li>Material: <%= materials[i] %> | Your grade: <%= grades[i] %> / <%= total_grades[i] %></li>
+        <% } %>
+    </ul>
+</html>

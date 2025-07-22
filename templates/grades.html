@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Grade</title>
+  </head>
+  <body>
+    <form action="/add-grade" method="POST">
+      <label>Enter the material name:</label>
+      <br />
+      <input
+        type="text"
+        name="material"
+        required
+        placeholder="Enter material name"
+      />
+      <br />
+      <label>Enter the material grade:</label>
+      <br />
+      <input
+        type="number"
+        required
+        placeholder="Enter a grade e.g. 50"
+        name="grade"
+      />
+      <br />
+      <label>Enter the maximum grade of the material:</label>
+      <br />
+      <input
+        type="number"
+        required
+        placeholder="Enter the maximum grade allowed for this material e.g. 100"
+        name="total_grade"
+      />
+      <br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
